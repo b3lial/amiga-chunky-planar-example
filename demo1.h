@@ -33,14 +33,6 @@
 #include <hardware/cia.h>
 #include <hardware/dmabits.h>
 
-#include "starlight/blob_controller.h"
-#include "starlight/graphics_controller.h"
-#include "starlight/utils.h"
-
-#include "main.h"
-#include "textscroller.h"
-#include "textcontroller.h"
-#include "showlogo.h"
 #include "chunkyconverter/chunkyconverter.h"
 
 #endif
