@@ -1,4 +1,4 @@
-#include "demo1.h"
+#include "cp-example.h"
 
 #define TEST_BITMAP_X 20
 #define TEST_BITMAP_Y 20

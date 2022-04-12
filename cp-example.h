@@ -1,7 +1,7 @@
 // Copyright 2021 Christian Ammann
 
-#ifndef __DEMO_1_H__
-#define __DEMO_1_H__
+#ifndef __CP_EXAMPLE_H__
+#define __CP_EXAMPLE_H__
 
 #define MAX_CHAR_HEIGHT 33
 #define MAX_CHAR_WIDTH 30
