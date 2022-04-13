@@ -18,7 +18,8 @@ code for educational purpose and a makefile.
 There are two ways to compile this project:
 
 * Install gcc and vasm locally to run `make`.
-* Install my [amiga build]() docker container
+* Install my [amiga build](https://hub.docker.com/r/phobosys/amiga-gcc-builder) 
+docker container and run `docker-run.sh`
 
 ## Usage
 ...
