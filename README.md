@@ -4,12 +4,21 @@ Converter functions written by Morten Eriksen in assembler.
 
 ## About
 I was looking for a leightweight example on how to convert
-chunky/planar buffers. Furthermore, I wanted to embedd it in
+chunky/planar buffers. Furthermore, I wanted to embedd it into
 my Amiga projects which are cross-compiled via gcc on 
-my machine and not on the Amiga themself.
+my machine and not on the Amiga themself. I did not find
+anything which met these requirements so I created this project.
+
+It is no rocket since: I basically took the assembler code from
+Morten Eriksen which provides two function to convert the different
+buffer types. Around it, I set up a C environment with some example
+code for educational purpose and a makefile.
 
 ## Build
-...
+There are two ways to compile this project:
 
-## Output
+* Install gcc and vasm locally to run `make`.
+* Install my [amiga build]() docker container
+
+## Usage
 ...
