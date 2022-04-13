@@ -22,4 +22,11 @@ There are two ways to compile this project:
 docker container and run `docker-run.sh`
 
 ## Usage
-...
+The binary performs the following tasks:
+
+* It invokes `testFunc()` and `addFunc()` which I wrote to test assembler integration into C
+* A planar bitmap is created with a resolution of 20x20 to make sure it contains padding bits
+for byte alignment.
+* We paint a rectangle into the bitmap
+* The function `PlanarToChunkyAsm()` is invoked to create the chunky buffer
+* The chunky buffer content is printed on screen to show it contains a proper rectangle.
