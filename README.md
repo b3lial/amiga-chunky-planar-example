@@ -28,5 +28,9 @@ The binary performs the following tasks:
 * A planar bitmap is created with a resolution of 20x20 to make sure it contains padding bits
 for byte alignment.
 * We paint a rectangle into the bitmap
-* The function `PlanarToChunkyAsm()` is invoked to create the chunky buffer
-* The chunky buffer content is printed on screen to show it contains a proper rectangle.
+* The function `PlanarToChunkyAsm()` is invoked to convert the planar bitmap into chunky format
+* The function `ChunkyToPlanarAsm()` is invoked to to convert chunky back to planar
+* The chunky buffer is cleared
+* The function `PlanarToChunkyAsm()` is invoked to convert back into the chunky buffer
+* The chunky buffer content is printed on screen to show it contains a proper rectangle. The back
+and forth conversion is used to make sure both converter functions work properly.
